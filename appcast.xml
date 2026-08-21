@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Quillary</title>
+        <item>
+            <title>0.9</title>
+            <pubDate>Thu, 20 Aug 2026 21:47:38 -0400</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>0.9 &mdash; first beta</h2>
+
+<p>First public build. Feature-complete for daily use, but not yet widely
+tested. Please report what breaks.</p>
+
+<ul>
+  <li>Global hotkey capture over any app, straight into Apple Reminders</li>
+  <li>Plain-language dates: <em>every weekday</em>, <em>by eod</em>,
+      <em>the Tuesday after next at 2</em></li>
+  <li>Priorities, custom alerts and repeats, read from the sentence</li>
+  <li>Recurring habits with streak tracking</li>
+</ul>
+
+<p><strong>Requires macOS 26 or later.</strong></p>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/Deltasoft-AI/quillary-releases/main/Quillary-0.9.zip" length="4236072" type="application/octet-stream" sparkle:edSignature="6O1eP+puei9TsbFUSXdqxBmreXOeGnmA3Me78CMuIhOyPWwAKtF7KZHI3t3orbeq0adhcST+ioPxNfPK/iPGBg=="/>
+        </item>
+    </channel>
+</rss>
