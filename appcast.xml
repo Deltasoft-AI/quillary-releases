@@ -11,19 +11,20 @@
             <description><![CDATA[
 <h2>Quillary 0.9.1</h2>
 
-<p>The phrases Quillary reads out of a sentence are now marked in the card. In
-the title each one lights up once it settles and stays in the color of the list
-you are capturing into. In the notes it is underlined instead.</p>
+<p>As you type a reminder, Quillary reads the date, time, repeat, priority and
+alarm out of the sentence. This release highlights the words it used, in the
+color of the list you are capturing into, so you can see the reminder was
+understood the way you meant it.</p>
 
-<p>Six parser fixes came out of building it:</p>
+<p>This release also fixes:</p>
 
 <ul>
-  <li>Editing a url saved the old address</li>
-  <li><em>due before midnight</em> and <em>by noon</em> set no date</li>
-  <li><em>beginning of next week</em> resolved to seven days out, not Monday</li>
-  <li><em>monday morning - at 10</em> and <em>Breakfast - 10am</em> came back as 9:00</li>
-  <li><em>Dinner tomorrow - 7pm</em> saved with the whole sentence as its title</li>
-  <li>Emoji in a title were stripped</li>
+  <li>Editing a link no longer saves the previous address</li>
+  <li><em>due before midnight</em> and <em>by noon</em> now set a time</li>
+  <li><em>beginning of next week</em> now resolves to the coming Monday</li>
+  <li>The time you write is respected in phrases such as <em>monday morning - at 10</em></li>
+  <li><em>Dinner tomorrow - 7pm</em> keeps its subject in the title</li>
+  <li>Emoji are no longer removed from titles</li>
 </ul>
 
 <p>Requires macOS 26 or later.</p>
