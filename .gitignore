@@ -1,3 +1,4 @@
 # Only the zips, the feed and the release notes belong in this repository.
 .DS_Store
 Quillary.app/
+old_updates/
