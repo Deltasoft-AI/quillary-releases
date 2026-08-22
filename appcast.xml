@@ -8,24 +8,25 @@
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>0.9.1 &mdash; the parser shows its work</h2>
+            <description><![CDATA[
+<h2>Quillary 0.9.1</h2>
 
-<p>The words Quillary read are now marked in the card itself. A band of light
-crosses each phrase once it has held still, leaving it heavier and in the color
-of the list you are capturing into. In the notes the phrase is underlined.</p>
+<p>The phrases Quillary reads out of a sentence are now marked in the card. In
+the title each one lights up once it settles and stays in the color of the list
+you are capturing into. In the notes it is underlined instead.</p>
 
-<p><strong>Also fixed</strong></p>
+<p>Six parser fixes came out of building it:</p>
 
 <ul>
   <li>Editing a url saved the old address</li>
-  <li><em>due before midnight</em> and <em>by noon</em> produced no date</li>
-  <li><em>beginning of next week</em> gave seven days out, not Monday</li>
-  <li><em>monday morning - at 10</em> and <em>Breakfast - 10am</em> came back as nine</li>
+  <li><em>due before midnight</em> and <em>by noon</em> set no date</li>
+  <li><em>beginning of next week</em> resolved to seven days out, not Monday</li>
+  <li><em>monday morning - at 10</em> and <em>Breakfast - 10am</em> came back as 9:00</li>
   <li><em>Dinner tomorrow - 7pm</em> saved with the whole sentence as its title</li>
-  <li>An emoji in the title was deleted</li>
+  <li>Emoji in a title were stripped</li>
 </ul>
 
-<p><strong>Requires macOS 26 or later. Apple silicon recommended.</strong></p>
+<p>Requires macOS 26 or later.</p>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/Deltasoft-AI/quillary-releases/main/Quillary-0.9.1.zip" length="4112900" type="application/octet-stream" sparkle:edSignature="S0D7Y+JB5VQaWqkRkdEb3dnc68P666JFYfwPlUIw3nchsj+ajnKTB6wMMKjtlJd/lHX47MIfVvj8zJXRnkqlAg=="/>
             <sparkle:deltas>
