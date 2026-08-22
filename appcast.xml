@@ -40,20 +40,24 @@ understood the way you meant it.</p>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>0.9 &mdash; first beta</h2>
+            <description><![CDATA[
+<h2>Quillary 0.9</h2>
 
-<p>First public build. Feature-complete for daily use, but not yet widely
-tested. Please report what breaks.</p>
+<p>The first public release of Quillary, a quick-capture panel for Apple
+Reminders. A global hotkey opens a capture card over whatever you are working in,
+and you write the reminder the way you would say it out loud.</p>
+
+<p>Quillary reads the details from the sentence as you type:</p>
 
 <ul>
-  <li>Global hotkey capture over any app, straight into Apple Reminders</li>
-  <li>Plain-language dates: <em>every weekday</em>, <em>by eod</em>,
-      <em>the Tuesday after next at 2</em></li>
-  <li>Priorities, custom alerts and repeats, read from the sentence</li>
-  <li>Recurring habits with streak tracking</li>
+  <li>Dates and times, from <em>tomorrow at 5pm</em> to <em>the Tuesday after next at 2</em></li>
+  <li>Repeats, such as <em>every weekday</em></li>
+  <li>Priorities and custom alerts, read from the sentence</li>
+  <li>Recurring reminders with streak tracking</li>
+  <li>Filing into a different list for each capture</li>
 </ul>
 
-<p><strong>Requires macOS 26 or later. Apple silicon recommended.</strong></p>
+<p>Requires macOS 26 or later.</p>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/Deltasoft-AI/quillary-releases/main/Quillary-0.9.zip" length="4236072" type="application/octet-stream" sparkle:edSignature="6O1eP+puei9TsbFUSXdqxBmreXOeGnmA3Me78CMuIhOyPWwAKtF7KZHI3t3orbeq0adhcST+ioPxNfPK/iPGBg=="/>
         </item>
